@@ -2,19 +2,19 @@
 
 /**
  * string_toupper - Change all lowercase letters to uppercase
- * @n: string
- * Return: n
+ * @c: string
+ * Return: c
  */
 
-char *string_toupper(char *n)
+char *string_toupper(char *c)
 {
 	int i;
 
-	for (i = 0; n[i] != '\0'; i++)
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (n[i] > 96 && n[i] < 123)
+		if (c[i] > 96 && c[i] < 123)
 		{
-			n[i] -= 32;
+			c[i] -= 32;
 		}
 	}
 	return (c);

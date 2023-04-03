@@ -6,7 +6,7 @@
 /**
  * *add_nodeint_end - adds a new node at the end of a linked list.
  * @head: head of the pointer of listint_t.
- * @n: date to ne added at the end of the list.
+ * @n: data to be added at the end of the list.
  *
  * Return: address of the new element, or NULL if it failed
  */
